@@ -1,0 +1,72 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    width:100%;
+}
+
+.home .img{
+    width:100%;
+}
+/* .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+ 
+.wrap-about {
+    width: 100%;
+}
+
+.fox{
+    background-image: url(assets/images/bg_3.jpg);
+}
+.img {
+    
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* .btn:hover{
+    background-color: white;
+    color:#f4541f;
+} */
+
+.teachers span {
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 99.3%;
+    height: 1000px;
+}
+
+/* student swiper */
+.student .swiper-slide img {
+    height:150px;
+    width: 150px;
+    border-radius:50%;
+}
